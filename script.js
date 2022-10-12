@@ -3,16 +3,7 @@ nt = "_blank"; //nt -> new tab opener
 
 //call icon manager
 let call_icon = document.getElementById("call-icon");
-call_icon.onmouseover = function(){
-    // call_icon.classList.remove('fa-solid');
-    // call_icon.classList.add('fa-duotone');
-}
-
-call_icon.onmouseleave = function(){
-    // call_icon.classList.remove('fa-square-github');
-    // call_icon.classList.add('fa-github');
-}
-
+rotate(call_icon);
 call_icon.onclick = function(){
     window.open('tel:+919618836976', nt);
 }
@@ -83,14 +74,36 @@ whatsapp_icon.onclick = function(){
 
 //telegram icon manager
 let telegram_icon = document.getElementById("telegram-icon");
-telegram_icon.onmouseover = function(){
-    telegram_icon.classList.add('fa-spin');
-}
-
-telegram_icon.onmouseleave = function(){
-    telegram_icon.classList.remove('fa-spin');
-}
-
+rotate(telegram_icon);
 telegram_icon.onclick = function(){
     window.open(`http://t.me/${common_url}`, nt);
 }
+
+let profile_icon = document.getElementById("icon");
+profile_icon.onmouseover = function(){
+    profile_icon.classList.add('fa-regular');
+    profile_icon.classList.add('fa-face-smile');
+    profile_icon.removeAttribute("src");
+
+}
+
+// profile_icon.onmouseleave = function(){
+//     profile_icon.classList.remove('fa-regular');
+//     profile_icon.classList.remove('fa-face-smile');
+//     profile_icon.setAttribute("src", "./proflie.png");
+// }
+
+profile_icon.onclick = function(){
+    window.open('https://bharath999999.github.io/portfolio1/');
+}
+
+function rotate(a){
+    a.onmouseover = function(){
+        a.classList.add('fa-spin');
+    }
+    
+    a.onmouseleave = function(){
+        a.classList.remove('fa-spin');
+    }
+}
+

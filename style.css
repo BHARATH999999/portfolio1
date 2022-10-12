@@ -1,10 +1,25 @@
-html{
-    background: linear-gradient(135deg, hsla(224, 75%, 45%, 1) 0%, hsla(324, 75%, 45%, 1) 100%);
+body{
+    background-color: #00FFD1;
 }
-.header{
 
+.body1{
+    background-color: #31C6D4;
+    position: absolute;
+    left: 65px;
+    padding: 10px;
+}
+
+.header{
     display: flex;
     justify-content: space-evenly;
-    font-size: 48px;
-    background-color: green;
+    flex-direction: column;
+    font-size: 45px;
+    background-color: #FFFF00;
+    position: absolute;
+    padding: 10px;
+}
+
+#icon{
+    padding-top: calc(100vh - 335px);
+    width: 45px;
 }
