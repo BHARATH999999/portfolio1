@@ -150,9 +150,19 @@ leetCode_icon.onclick = function(){
 
 //arrow handler
 arrow = document.getElementById("arrow");
-
 arrow.onclick = function(){
-    window.alert("hii")
-    let subheader = getElementById("subheader1");
-    subheader.style.visibility = "none";
+    let subheader = document.getElementById("subheader1");
+    subheader.style.display = "";
+    arrow.classList.remove("fa-angle-down");
+    let header = document.getElementById("main-header");
+    header.style.paddingBottom = "0px";
+}
+
+arrow1 = document.getElementById("arrow1");
+arrow1.onclick = function(){
+    let subheader = document.getElementById("subheader1");
+    subheader.style.display = "none";
+    let header = document.getElementById("main-header");
+    header.style.paddingBottom = "260px";
+    arrow.classList.add("fa-angle-down");
 }
