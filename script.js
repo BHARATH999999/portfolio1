@@ -95,13 +95,11 @@ telegram_icon.onclick = function(){
 
 let profile_icon = document.getElementById("icon");
 profile_icon.onmouseover = function(){
-    profile_icon.removeAttribute("src");
-    profile_icon.classList.add('fa-face-smile');
+    profile_icon.setAttribute("src","./smile.png");
 }
 
 profile_icon.onmouseleave = function(){
-    profile_icon.Attribute("src", "./proflie.png");
-    profile_icon.classList.remove('fa-face-smile');
+    profile_icon.setAttribute("src","./profile.png");
 }
 
 //linkedin icon manager
@@ -148,4 +146,13 @@ leetCode_icon.onmouseleave = function(){
 
 leetCode_icon.onclick = function(){
     window.open(`https://www.leetcode.com/${common_url}`, nt);
+}
+
+//arrow handler
+arrow = document.getElementById("arrow");
+
+arrow.onclick = function(){
+    window.alert("hii")
+    let subheader = getElementById("subheader1");
+    subheader.style.visibility = "none";
 }
