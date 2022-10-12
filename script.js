@@ -138,3 +138,17 @@ facebook_icon.onmouseleave = function(){
 facebook_icon.onclick = function(){
     window.open(`https://www.facebook.com/${common_url}`, nt);
 }
+
+//LeetCode icon manager
+let leetCode_icon = document.getElementById("leetCode-icon");
+    leetCode_icon.onmouseover = function(){
+        leetCode_icon.setAttribute("src","./leetcode1.png");
+    }
+
+    leetCode_icon.onmouseleave = function(){
+        leetCode_icon.setAttribute("src","leetcode.png");
+    }
+
+    leetCode_icon.onclick = function(){
+        window.open(`https://www.leetcode.com/${common_url}`, nt);
+    }

@@ -20,10 +20,24 @@ body{
 }
 
 #icon{
-    padding-top: calc(100vh - 414px);
+    padding-top: calc(100vh - 464px);
     width: 45px;
     margin-left: 3px;
 
+}
+
+/* img{
+    width : 45px;
+}
+
+.fa-face-smile{
+    width: 45px;
+} */
+
+#leetCode-icon{
+    margin-left: 1px;
+    padding-top: 6px;
+    width : 45px;
 }
 
 .fa-brands{
