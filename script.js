@@ -3,7 +3,14 @@ nt = "_blank"; //nt -> new tab opener
 
 //call icon manager
 let call_icon = document.getElementById("call-icon");
-rotate(call_icon);
+call_icon.onmouseover = function(){
+    call_icon.setAttribute("src","./call1.png");
+}
+
+call_icon.onmouseleave = function(){
+    call_icon.setAttribute("src","./call.png");
+}
+
 call_icon.onclick = function(){
     window.open('tel:+919618836976', nt);
 }
@@ -53,7 +60,7 @@ instagram_icon.onmouseleave = function(){
 }
 
 instagram_icon.onclick = function(){
-    window.open(`https://www.instagram.com/${common_url}`, nt);
+window.open(`https://www.instagram.com/${common_url}`, nt);
 }
 
 //whatsapp icon manager
@@ -74,7 +81,14 @@ whatsapp_icon.onclick = function(){
 
 //telegram icon manager
 let telegram_icon = document.getElementById("telegram-icon");
-rotate(telegram_icon);
+telegram_icon.onmouseover = function(){
+    telegram_icon.setAttribute("src","./telegram1.png");
+}
+
+telegram_icon.onmouseleave = function(){
+    telegram_icon.setAttribute("src","./telegram.png");
+}
+
 telegram_icon.onclick = function(){
     window.open(`http://t.me/${common_url}`, nt);
 }
@@ -87,29 +101,19 @@ profile_icon.onmouseover = function(){
 
 }
 
-// profile_icon.onmouseleave = function(){
-//     profile_icon.classList.remove('fa-regular');
-//     profile_icon.classList.remove('fa-face-smile');
-//     profile_icon.setAttribute("src", "./proflie.png");
-// }
-
-profile_icon.onclick = function(){
-    window.open('https://bharath999999.github.io/portfolio1/');
+profile_icon.onmouseleave = function(){
+    profile_icon.classList.remove('fa-regular');
+    profile_icon.classList.remove('fa-face-smile');
+    profile_icon.setAttribute("src", "./proflie.png");
 }
 
-function rotate(a){
-    a.onmouseover = function(){
-        a.classList.add('fa-spin');
-    }
-    
-    a.onmouseleave = function(){
-        a.classList.remove('fa-spin');
-    }
+a.onmouseleave = function(){
+    a.classList.remove('fa-spin');
 }
 
 //linkedin icon manager
 let linkedin_icon = document.getElementById("linkedin-icon");
-    linkedin_icon.onmouseover = function(){
+linkedin_icon.onmouseover = function(){
     linkedin_icon.classList.remove('fa-linkedin-in');
     linkedin_icon.classList.add('fa-linkedin');
 }
@@ -125,7 +129,7 @@ linkedin_icon.onclick = function(){
 
 //facebook icon manager
 let facebook_icon = document.getElementById("facebook-icon");
-    facebook_icon.onmouseover = function(){
+facebook_icon.onmouseover = function(){
     facebook_icon.classList.remove('fa-facebook-f');
     facebook_icon.classList.add('fa-facebook');
 }
@@ -141,14 +145,14 @@ facebook_icon.onclick = function(){
 
 //LeetCode icon manager
 let leetCode_icon = document.getElementById("leetCode-icon");
-    leetCode_icon.onmouseover = function(){
-        leetCode_icon.setAttribute("src","./leetcode1.png");
-    }
+leetCode_icon.onmouseover = function(){
+    leetCode_icon.setAttribute("src","./leetcode1.png");
+}
 
-    leetCode_icon.onmouseleave = function(){
-        leetCode_icon.setAttribute("src","leetcode.png");
-    }
+leetCode_icon.onmouseleave = function(){
+    leetCode_icon.setAttribute("src","./leetcode.png");
+}
 
-    leetCode_icon.onclick = function(){
-        window.open(`https://www.leetcode.com/${common_url}`, nt);
-    }
+leetCode_icon.onclick = function(){
+    window.open(`https://www.leetcode.com/${common_url}`, nt);
+}

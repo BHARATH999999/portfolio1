@@ -26,15 +26,13 @@ body{
 
 }
 
-/* img{
+#leetCode-icon{
+    margin-left: 1px;
+    padding-top: 6px;
     width : 45px;
 }
 
-.fa-face-smile{
-    width: 45px;
-} */
-
-#leetCode-icon{
+#telegram-icon{
     margin-left: 1px;
     padding-top: 6px;
     width : 45px;
@@ -46,6 +44,8 @@ body{
 }
 
 #call-icon{
+    width: 45px;
+    margin-left: 3px;
     padding-top: 6px;
     margin-left: 6px;
 }
