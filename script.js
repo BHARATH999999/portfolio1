@@ -47,6 +47,22 @@ github_icon.onclick = function(){
     window.open(`https://www.github.com/${common_url}`, nt);
 }
 
+//twitter icon handler
+let twitter_icon = document.getElementById("twitter-icon");
+twitter_icon.onmouseover = function(){
+    twitter_icon.classList.remove('fa-twitter');
+    twitter_icon.classList.add('fa-square-twitter');
+}
+
+twitter_icon.onmouseleave = function(){
+    twitter_icon.classList.remove('fa-square-twitter');
+    twitter_icon.classList.add('fa-twitter');
+}
+
+twitter_icon.onclick = function(){
+    window.open(`https://www.twitter.com/bharath_tweeets`, nt);
+}
+
 //insatgram icon manager
 let instagram_icon = document.getElementById("instagram-icon");
 instagram_icon.onmouseover = function(){
