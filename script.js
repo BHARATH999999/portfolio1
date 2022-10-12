@@ -95,15 +95,14 @@ telegram_icon.onclick = function(){
 
 let profile_icon = document.getElementById("icon");
 profile_icon.onmouseover = function(){
-    profile_icon.classList.add('fa-face-smile');
     profile_icon.removeAttribute("src");
-
+    profile_icon.classList.add('fa-face-smile');
 }
 
-// profile_icon.onmouseleave = function(){
-//     profile_icon.classList.remove('fa-face-smile');
-//     profile_icon.setAttribute("src", "./proflie.png");
-// }
+profile_icon.onmouseleave = function(){
+    profile_icon.Attribute("src", "./proflie.png");
+    profile_icon.classList.remove('fa-face-smile');
+}
 
 //linkedin icon manager
 let linkedin_icon = document.getElementById("linkedin-icon");
