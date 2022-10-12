@@ -14,7 +14,7 @@ call_icon.onmouseleave = function(){
 }
 
 call_icon.onclick = function(){
-    window.open(`https://www.github.com/${common_url}`, nt);
+    window.open('tel:+919618836976', nt);
 }
 
 //mail icon manager
