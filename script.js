@@ -109,7 +109,7 @@ function rotate(a){
 
 //linkedin icon manager
 let linkedin_icon = document.getElementById("linkedin-icon");
-linkedin_icon.onmouseover = function(){
+    linkedin_icon.onmouseover = function(){
     linkedin_icon.classList.remove('fa-linkedin-in');
     linkedin_icon.classList.add('fa-linkedin');
 }
@@ -123,3 +123,18 @@ linkedin_icon.onclick = function(){
     window.open(`https://www.linkedin.com/in/${common_url}`, nt);
 }
 
+//facebook icon manager
+let facebook_icon = document.getElementById("facebook-icon");
+    facebook_icon.onmouseover = function(){
+    facebook_icon.classList.remove('fa-facebook-f');
+    facebook_icon.classList.add('fa-facebook');
+}
+
+facebook_icon.onmouseleave = function(){
+    facebook_icon.classList.remove('fa-facebook');
+    facebook_icon.classList.add('fa-facebook-f');
+}
+
+facebook_icon.onclick = function(){
+    window.open(`https://www.facebook.com/${common_url}`, nt);
+}
