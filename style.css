@@ -1,0 +1,10 @@
+html{
+    background: linear-gradient(135deg, hsla(224, 75%, 45%, 1) 0%, hsla(324, 75%, 45%, 1) 100%);
+}
+.header{
+
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 48px;
+    background-color: green;
+}
