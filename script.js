@@ -107,3 +107,19 @@ function rotate(a){
     }
 }
 
+//linkedin icon manager
+let linkedin_icon = document.getElementById("linkedin-icon");
+linkedin_icon.onmouseover = function(){
+    linkedin_icon.classList.remove('fa-linkedin-in');
+    linkedin_icon.classList.add('fa-linkedin');
+}
+
+linkedin_icon.onmouseleave = function(){
+    linkedin_icon.classList.remove('fa-linkedin');
+    linkedin_icon.classList.add('fa-linkedin-in');
+}
+
+linkedin_icon.onclick = function(){
+    window.open(`https://www.linkedin.com/in/${common_url}`, nt);
+}
+
