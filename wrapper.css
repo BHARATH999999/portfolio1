@@ -1,0 +1,337 @@
+#body3{
+    padding-top: 15px;
+    padding-left: 21px;
+    color: #FFFF00;
+    font-family: poppins;
+}
+
+#body{
+    background-image: url(./src/icons/th.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no repeat;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.wrapper h1{
+    font-size: 70px;
+}
+
+.wrapper h2{
+    /* padding: 0;
+    margin: 0; */
+    color: #fff;
+    text-shadow: 0 2px 0 rgba(0,0,0,0,5);
+    font-size: 55px;
+}
+
+.wrapper p{
+    color: #fff;
+    font-size: 18px;
+    /* margin: 0; */
+    line-height: 35px;
+}
+
+.wrapper a{
+    background: crimson;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+div span1:before{
+    content: '...';
+    animation: animate infinite 25s;
+}
+
+@keyframes animate{
+    0%{
+        content: '...';
+    }
+    1%{
+        content: 'F|';
+    }
+    2%{
+        content: 'Fr|';
+    }
+    3%{
+        content: 'Fre';
+    }
+    4%{
+        content: 'Free|';
+    }
+    5%{
+        content: 'Freel|';
+    }
+    6%{
+        content: 'Freela|';
+    }
+    7%{
+        content: 'Freelan|';
+    }
+    8%{
+        content : 'Freelanc|'
+    }
+    9%{
+        content : 'Freelance|'
+    }
+    10%{
+        content : 'Freelancer|'
+    }
+    11%{
+        content : 'Freelance|'
+    }
+    12%{
+        content : 'Freelanc|'
+    }
+    13%{
+        content: 'Freelan|';
+    }
+    14%{
+        content: 'Freela|';
+    }
+    15%{
+        content: 'Freel|';
+    }
+    16%{
+        content: 'Free|';
+    }
+    17%{
+        content: 'Fre';
+    }
+    18%{
+        content: 'Fr|';
+    }
+    19%{
+        content: 'F|';
+    }
+    20%{
+        content: '...';
+    }
+    21%{
+        content : 'C|'
+    }
+    22%{
+        content : 'Co|'
+    }
+    23%{
+        content: "Cod|";
+    }
+    24%{
+        content: "Code|";
+    }
+    25%{
+        content: "Code|";
+    }
+    26%{
+        content: "Coder|";
+    }
+    27%{
+        content: "Code|";
+    }
+    28%{
+        content: "Cod|";
+    }
+    29%{
+        content: "Co|";
+    }
+    30%{
+        content: "C|";
+    }
+    31%{
+        content: "...";
+    }
+    32%{
+        content : "F|";
+    }
+    33%{
+        content : "Fr|";
+    }
+    34%{
+        content : "Fro|";
+    }
+    35%{
+        content : "Fron|";
+    }
+    36%{
+        content : "Front|";
+    }
+    37%{
+        content : "Fronte|";
+    }
+    38%{
+        content : "Fronten|";
+    }
+    39%{
+        content : "Frontend|";
+    }
+    40%{
+        content : "Frontend |";
+    }
+    41%{
+        content : "Frontend D|";
+    }
+    42%{
+        content : "Frontend De|";
+    }
+    43%{
+        content : "Frontend Dev|";
+    }
+    44%{
+        content : "Frontend Deve|";
+    }
+    45%{
+        content : "Frontend Devel|";
+    }
+    46%{
+        content : "Frontend Develo|";
+    }
+    47%{
+        content : "Frontend Develop|";
+    }
+    48%{
+        content : "Frontend Develope|";
+    }
+    49%{
+        content : "Frontend Developer|";
+    }
+    50%{
+        content : "Frontend Develope|";
+    }
+    51%{
+        content : "Frontend Develop|";
+    }
+    52%{
+        content : "Frontend Develo|";
+    }
+    53%{
+        content : "Frontend Devel|";
+    }
+    54%{
+        content : "Frontend Devel|";
+    }
+    55%{
+        content : "Frontend Deve|";
+    }
+    56%{
+        content : "Frontend Dev|";
+    }
+    57%{
+        content : "Frontend De|";
+    }
+    58%{
+        content : "Frontend D|";
+    }
+    59%{
+        content : "Frontend |";
+    }
+    60%{
+        content : "Frontend|";
+    }
+    61%{
+        content : "Fronten|";
+    }
+    62%{
+        content : "Fronte|";
+    }
+    63%{
+        content : "Front|";
+    }
+    64%{
+        content : "Fron|";
+    }
+    65%{
+        content : "Fro|";
+    }
+    66%{
+        content : "Fr|";
+    }
+    67%{
+        content : "F|";
+    }
+    68%{
+        content : "...";
+    }
+    69%{
+        content : "P|";
+    }
+    70%{
+        content : "Ph|";
+    }
+    71%{
+        content : "Ph|";
+    }
+    72%{
+        content : "Pho|";
+    }
+    73%{
+        content : "Phot|";
+    }
+    74%{
+        content : "Photo|";
+    }
+    75%{
+        content : "Photog|";
+    }
+    76%{
+        content : "Photogr|";
+    }
+    77%{
+        content : "Photogra|";
+    }
+    78%{
+        content : "Photograp|";
+    }
+    79%{
+        content : "Photograph|";
+    }
+    80%{
+        content : "Photographe|";
+    }
+    81%{
+        content : "Photographer|";
+    }
+    82%{
+        content : "Photographe|";
+    }
+    83%{
+        content : "Photograph|";
+    }
+    84%{
+        content : "Photograp|";
+    }
+    85%{
+        content : "Photogra|";
+    }
+    86%{
+        content : "Photogr|";
+    }
+    87%{
+        content : "Photog|";
+    }
+    88%{
+        content : "Photo|";
+    }
+    89%{
+        content : "Phot|";
+    }
+    90%{
+        content : "Pho|";
+    }
+    91%{
+        content : "Ph|";
+    }
+    92%{
+        content : "P|";
+    }
+    93%{
+        content : "...";
+    }
+    
+}
