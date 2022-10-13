@@ -6,37 +6,33 @@ body{
     background-color: #FFFF00;
     position: absolute;
     left: 61px;
-    padding: 15px;
+    /* padding: 15px; */
+    overflow:auto;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 100vh;
 }
 
 .header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:flex-start;
     flex-direction: column;
     font-size: 25px;
     background-color: #FF1E1E;
     position: absolute;
     padding-left: 7px;
     padding-right: 7px;
-    padding-bottom: 260px;
-    size: 100vh;
+    height: 100vh;
+    overflow: hidden;
 
 }
 
 .subheader{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     font-size: 29px;
-    background-color: #FF1E1E;
-    position: relative;
     padding-left: 7px;
     cursor:pointer;
-
-    /* top:20px */
-    /* padding: 7px; */
 }
 
 #arrow{
@@ -52,10 +48,6 @@ body{
     top: 8px;
     cursor: pointer;
 
-}
-
-.bottom{
-    padding-top: calc(100vh - 331px);
 }
 #icon{
     padding-top: 6px;
@@ -95,4 +87,17 @@ body{
     padding-top: 6px;
     margin-left: 2.5px;
     size: 35px;
+}
+
+#body3{
+    margin: 0;
+    padding: 18px;
+    color: #FFFF00;
+    background-image: url(./src/icons/th.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no repeat;
+    font-family: poppins;
+    height: 100vh;
 }
